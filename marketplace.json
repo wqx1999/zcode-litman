@@ -1,0 +1,42 @@
+{
+  "name": "litman",
+  "description": "ZCode plugin for litman, the local literature manager.",
+  "description_i18n": {
+    "en": "ZCode plugin for litman, the local literature manager.",
+    "zh-CN": "litman（本地文献库）的 ZCode 插件。"
+  },
+  "owner": {
+    "name": "Qingxin Wang",
+    "url": "https://litman.dev"
+  },
+  "plugins": [
+    {
+      "name": "litman",
+      "displayName": "litman",
+      "displayName_i18n": {
+        "en": "litman",
+        "zh-CN": "litman"
+      },
+      "source": "./plugins/litman",
+      "description": "Set up litman, a local literature manager driven by your AI assistant: installs litman with your consent and connects its skills to ZCode.",
+      "description_i18n": {
+        "en": "Set up litman, a local literature manager driven by your AI assistant: installs litman with your consent and connects its skills to ZCode.",
+        "zh-CN": "接入 litman（由 AI 助手打理的本地文献库）：经你同意后安装 litman，并把它的 skill 接入 ZCode。"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Qingxin Wang",
+        "url": "https://litman.dev"
+      },
+      "category": "productivity",
+      "keywords": [
+        "litman",
+        "literature",
+        "papers",
+        "pdf",
+        "reference-manager",
+        "research"
+      ]
+    }
+  ]
+}
